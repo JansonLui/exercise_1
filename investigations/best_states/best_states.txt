@@ -1,0 +1,17 @@
+#Question: What states are models of high-quality-care?
+
+#Query Results
+DC	102.88
+MD	102.3
+DE	101.26
+NY	98.46
+NJ	98.24
+NV	97.78
+NH	97.7
+CT	97.0
+CA	96.83
+MA	96.38
+
+#Answer: For this questions, I chose to utilize the state column from hospitals and the average of the score column from effective_care.
+Same with question 1, each state and hospital provides different services so an average of the scores is the best choice for a broad question like this.
+From the query, these are the 10 best states for models of high-quality care.
