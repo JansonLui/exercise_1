@@ -1,0 +1,25 @@
+#Question: Are average scores for hospital quality or procedural variability correlated with patient survey responses?
+
+#Results:
+450348	FALLS COMMUNITY HOSPITAL AND CLINIC	170.91	2 out of 10	2 out of 9	2 out of 10	62	18
+050315	KERN MEDICAL CENTER	112.65	0 out of 10	1 out of 9	1 out of 10	18	8
+140300	PROVIDENT HOSPITAL OF CHICAGO	111.74	0 out of 10	2 out of 9	2 out of 10	34	15
+050138	KAISER FOUNDATION HOSPITAL - LOS ANGELES	109.89	6 out of 10	1 out of 9	6 out of 10	22	20
+010087	UNIVERSITY OF SOUTH ALABAMA MEDICAL CENTER	107.83	5 out of 10	1 out of 9	5 out of 10	27	20
+370225	SUMMIT MEDICAL CENTER	104.89	Not Available	Not Available	Not Available	Not Available	Not Available
+050515	KAISER FOUNDATION HOSPITAL - SAN DIEGO	103.74	2 out of 10	1 out of 9	2 out of 10	18	15
+050748	KAISER FOUNDATION HOSPITAL MANTECA	103.34	7 out of 10	4 out of 9	7 out of 10	24	19
+050723	KAISER FOUNDATION HOSPITAL - BALDWIN PARK	103.22	6 out of 10	3 out of 9	6 out of 10	27	20
+050767	KAISER FOUNDATION HOSPITAL - VACAVILLE	102.5	8 out of 10	0 out of 9	8 out of 10	21	20
+
+#Answer:
+For this question, I am comparing the average scores of quality with the overall hospital achievement, improvement, dimension scores 
+along with the base score and consistency score. This query is different than the original query for the highest average score because
+there are some hospitals that did not have survey data so we are comparing hospitals that do have that data. Based on the data, it looks 
+like there might be a relationship between average quality score and patient survey responses. For the top hospital, Falls Community Hospital
+and Clinic, had the highest average score of 170.91 but has a 2 in  overall achievement, improvement and dimension scores. This could mean
+that they're at a point where they aren't able to progress much when since the surveys were last taken. On the contrary to the overall scores, the base score of 62 
+was consistent 18 times throughout the data which is high considering the scores from the other hospitals. There also seems to be a trend with the 
+other hospitals as well. The lower the average score, the lower the base score. In reference to the hospitals, the overall achievement, 
+improvement and dimension scores only offer additional insight as to how much they've progressed since the last time the hospital was surveyed. 
+Again, there seems to be a correlation between average score and patient survey responses but without further analysis we cannot be certain.

@@ -1,17 +1,19 @@
 #Question: What states are models of high-quality-care?
 
 #Query Results
-DC	102.88
-MD	102.3
-DE	101.26
-NY	98.46
-NJ	98.24
-NV	97.78
-NH	97.7
-CT	97.0
-CA	96.83
-MA	96.38
+DC	80.2
+DE	78.81
+NJ	77.61
+NY	77.21
+CA	76.93
+MD	76.67
+CT	75.58
+MA	75.32
+HI	75.13
+RI	74.95
 
 #Answer: For this questions, I chose to utilize the state column from hospitals and the average of the score column from effective_care.
 Same with question 1, each state and hospital provides different services so an average of the scores is the best choice for a broad question like this.
-From the query, these are the 10 best states for models of high-quality care.
+From the query, these are the 10 best states for models of high-quality care. The state that has the highest quality of care is DC. It makes sense because 
+this is where all the important government officials congregate and/or live (including President Obama). In addition, most government officials are older 
+in age, so having high-quality-care in DC is not surprising.

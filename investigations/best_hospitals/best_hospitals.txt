@@ -1,17 +1,18 @@
 #Question: What hospitals are models of high-quality care? That is, which hospitals have the most consistently high scores for a variety of procedures
 
 #Results:
-FALLS COMMUNITY HOSPITAL AND CLINIC	88	1132	2827.0	235.58
 BEAR VALLEY COMMUNITY HOSPITAL	49	126	526.0	175.33
-HOSP COMUNITARIO BUEN SAMARITANO	95	100	2676.0	167.25
+FALLS COMMUNITY HOSPITAL AND CLINIC	9.1	11.6	2905.5	170.91
 CRESCENT MEDICAL CENTER LANCASTER	7	110	685.0	137.0
-MEDINA REGIONAL HOSPITAL	94	244	408.0	136.0
-NEWARK BETH ISRAEL MEDICAL CENTER	99	100	5123.0	134.82
-REDWOOD MEMORIAL HOSPITAL	92	100	782.0	130.33
-HOSPITAL HERMANOS MELENDEZ INC	98	100	2474.0	130.21
-MERCY HOSPITAL CASSVILLE	96	100	512.0	128.0
-COMMUNITY MEMORIAL HOSPITAL, INC	99	100	1149.0	127.67
+HOSP COMUNITARIO BUEN SAMARITANO	95	100	2777.1	126.23
+NOVANT HEALTH HAYMARKET MEDICAL CENTER	302	100	1116.0	124.0
+SPECTRUM HEALTH GERBER MEMORIAL	98	100	1251.0	113.73
+KERN MEDICAL CENTER	99	1	3830.2	112.65
+PROVIDENT HOSPITAL OF CHICAGO	99	100	3016.9	111.74
+KAISER FOUNDATION HOSPITAL - LOS ANGELES	99	100	3516.6	109.89
+UNIVERSITY OF SOUTH ALABAMA MEDICAL CENTER	99	100	4097.4	107.83
 
-#Answer: After joining the hospital table with the effective_care table, I was able to query the highest average score for various procedures 
+#Answer: After joining the hospital table with the effective_readmissions_care table, I was able to query the highest average score for various procedures 
 as well as the maximum, minimum and sum of all procedures offered at each hospital. I used the average score for this question 
-since each hospital offers a variety of procedures. So by averaging the scores and sorting by them, we can determine the supposedly 10 best overall hospitals.
+since each hospital offers a variety of procedures. The names of the variety of procedures were not important as the question only wanted the scores.
+So by averaging the scores and sorting by them, we can determine the supposedly 10 best overall hospitals.

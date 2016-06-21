@@ -14,4 +14,10 @@ Elective Delivery	9	1	8.0
 
 #Answer:
 For this question, I queried and sorted the procedures that had the most difference in maximum and minimum scores
-amongst all hospitals. The results from this query show the top 10 procedures that varied most in scores. 
+amongst all hospitals. The results from this query show the top 10 procedures that varied most in scores. The top 
+procedure being the decision for time of departure having one of the most varied score makes sense because there are 
+people that believe they didn't need to stay in the hospital for as long as they did and vice versa. It also looks like
+Venous Thromboembolism Prophylaxis is is also a procedure with big variance in scores. This is actually a surgery for treating
+blood clots in big blood veins. As with the nature of surgery, there are people that dislike the thought of it as well as people
+that praise being operated on in an attempt to get better. Hence the variability in score. Although it does not take into account 
+the number of occurences, this query still shows good insight as to possible improvements that could be made to these processes.
