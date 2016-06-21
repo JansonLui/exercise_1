@@ -1,16 +1,17 @@
 #Question: Which procedures have the greatest varibility between hospitals?
 
 #Results:
-ED_2b	Admit Decision Time to ED Departure Time for Admitted Patients	98.0
-VTE_1	Venous Thromboembolism Prophylaxis	98.0
-VTE_5	Venous Thromboembolism Warfarin Therapy Discharge Instructions	98.0
-OP_20	Median Time from ED Arrival to Provider Contact for ED patients	97.0
-STK_4	Thrombolytic Therapy	97.0
-OP_1	Median Time to Fibrinolysis	49.0
-AMI_7a	Fibrinolytic Therapy Received within 30 Minutes of Hospital Arrival	46.0
-OP_22	Patient left without being seen	8.0
-PC_01	Elective Delivery	8.0
-OP_5	Median Time to ECG	8.0
+Admit Decision Time to ED Departure Time for Admitted Patients	99	1	98.0
+Venous Thromboembolism Prophylaxis	99	1	98.0
+Venous Thromboembolism Warfarin Therapy Discharge Instructions	99	1	98.0
+Thrombolytic Therapy	98	1	97.0
+Median Time from ED Arrival to Provider Contact for ED patients	98	1	97.0
+Median Time to Fibrinolysis	64	15	49.0
+Fibrinolytic Therapy Received within 30 Minutes of Hospital Arrival	73	27	46.0
+Patient left without being seen	9	1	8.0
+Hospital Acquired Potentially-Preventable Venous Thromboembolism	9	1	8.0
+Elective Delivery	9	1	8.0
 
 #Answer:
-For this question, I 
+For this question, I queried and sorted the procedures that had the most difference in maximum and minimum scores
+amongst all hospitals. The results from this query show the top 10 procedures that varied most in scores. 
