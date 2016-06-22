@@ -15,4 +15,4 @@ UNIVERSITY OF SOUTH ALABAMA MEDICAL CENTER	99	100	4097.4	107.83
 #Answer: After joining the hospital table with the effective_readmissions_care table, I was able to query the highest average score for various procedures 
 as well as the maximum, minimum and sum of all procedures offered at each hospital. I used the average score for this question 
 since each hospital offers a variety of procedures. The names of the variety of procedures were not important as the question only wanted the scores.
-So by averaging the scores and sorting by them, we can determine the supposedly 10 best overall hospitals.
+So by averaging the scores and sorting by them, we can determine the top 10 hospitals that possess high-quality care.
